@@ -49,18 +49,18 @@ body {
     font-family: 'Satisfy', cursive; 
     align-items: center;}
 
+.carta {
+    background-color: aliceblue;
+}
+
 .imagen {
     width: 1250px; 
     margin: 2%;}
+
 .video {
     margin: 2%; 
     margin-right: 25%; 
     margin-left: 30%;}
-.docu {
-    width:960px; 
-    height:514px; 
-    margin: 2%; 
-    margin-left:15% ;}
 
 footer {
     background-color: darkgray;
@@ -103,7 +103,6 @@ footer {
     #promocion2 {width: 760px; height: 570px;}
     .imagen {width: 720px; margin: 2%;}
     .video {margin: 2%; margin-right: 5%; margin-left: 3%; width: 700px;}
-    .docu {width:720px; height:324px; margin: 1%; margin-left:1% ;}
     footer {display: flex; flex-direction: column; height: 43rem; width: 760px;}
     .info_muni {margin-top: 1%; margin-left: 20%; text-align: center;}
     .argentina {margin-left: 7%; width: 650px; height: 360px;}
@@ -116,12 +115,11 @@ footer {
     #carouselExampleSlidesOnly {width: 570px;}
     .subt {width: 570px;}
     .btn1 {width: 570px;}
-    .carta {width: 570px;}
+    .carta {width: 570px; background-color: aliceblue;}
     #promocion1 {width: 570px; height: 200px;}
     #promocion2 {width: 570px; height: 370px;}
     .imagen {width: 520px; margin: 2%;}
     .video {margin: 2%; margin-right: 5%; margin-left: 3%; width: 500px;}
-    .docu {width:520px; height:324px; margin: 1%; margin-left:1% ;}
     footer {display: flex; flex-direction: column; height: 35rem; width: 574px;}
     .info_muni {margin-top: 1%; margin-left: 10%; text-align: center;}
     .argentina {margin-left: 7%; width: 480px; height: 260px;}
@@ -140,7 +138,6 @@ footer {
     #promocion2 {width: 355px; height: 250px;}
     .imagen {width: 340px; margin: 2%;}
     .video {margin: 2%; margin-right: 5%; margin-left: 3%; width: 360px;}
-    .docu {width:360px; height:214px; margin: 1%; margin-left:1% ;}
     footer {display: flex; flex-direction: column; height: 35rem; width: 360px;}
     .info_muni {margin-top: 1%; margin-left: 4%; text-align: center;}
     .argentina {margin-left: 1%; width: 330px; height: 230px;}
