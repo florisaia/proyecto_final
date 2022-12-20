@@ -1,0 +1,148 @@
+body {
+    background-image: url(../imagenes/fondo_carnaval.jpg); 
+    background-attachment:scroll; 
+    background-repeat: none;}
+
+.inicio {
+    color: darkgrey; 
+    text-decoration: none;}
+.inicio:hover {color:mediumvioletred}
+
+.banner {align-items: center;}
+
+#carouselExampleSlidesOnly{margin: 2%;}
+
+.subt {
+    background-color: aliceblue; 
+    text-align: center; 
+    font-family: 'Lobster', cursive; 
+    color: black; 
+    animation-name: carnaval; 
+    animation-duration: 50s;}
+@keyframes carnaval {
+    0% {color:black;}
+    5% {color:darkslategrey;}
+    10% {color:darkolivegreen;}
+    15% {color:darkgreen;}
+    20% {color:green;}
+    25% {color:chartreuse;}
+    30% {color:lawngreen;}
+    35% {color:greenyellow;}
+    40% {color:yellow;}
+    45% {color:gold;}
+    50% {color:orange;}
+    55% {color:orangered;}
+    60% {color:red;}
+    65% {color:crimson;}
+    70% {color:deeppink;}
+    75% {color:fuchsia;}
+    80% {color:mediumpurple;}
+    85% {color:blueviolet;}
+    90% {color:darkmagenta;}
+    95% {color:indigo;}
+    100% {color:blue;}
+}
+
+.btn1 {
+    background-image: url(../imagenes/fondo_boton.jpg); 
+    text-align: center; 
+    font-family: 'Satisfy', cursive; 
+    align-items: center;}
+
+.imagen {
+    width: 1250px; 
+    margin: 2%;}
+.video {
+    margin: 2%; 
+    margin-right: 25%; 
+    margin-left: 30%;}
+.docu {
+    width:960px; 
+    height:514px; 
+    margin: 2%; 
+    margin-left:15% ;}
+
+footer {
+    background-color: darkgray;
+    display: flex;
+    height: 20rem;
+    padding: 1%;
+}
+
+.info_muni {
+    margin-right: 20%;
+    margin-top: 8%;
+    align-items: center;}
+
+.argentina {
+    width: 500px; 
+    height: 270px;
+}
+
+.copy {
+    border: none;
+    background-color: inherit;
+}
+
+.redes {
+    display: flex;
+    flex-direction: column;
+    margin-left: 3.5%;
+    margin-top: 7%;
+}
+
+@media (max-width:768px){
+    body {width: 760px;}
+    .inicio {text-align: center;}
+    .banner {width: 760px;}
+    #carouselExampleSlidesOnly {width: 760px;}
+    .subt {width: 760px;}
+    .btn1 {width: 760px;}
+    .carta {width: 760px; background-color: aliceblue;}
+    #promocion1 {width: 760px; height: 320px;}
+    #promocion2 {width: 760px; height: 570px;}
+    .imagen {width: 720px; margin: 2%;}
+    .video {margin: 2%; margin-right: 5%; margin-left: 3%; width: 700px;}
+    .docu {width:720px; height:324px; margin: 1%; margin-left:1% ;}
+    footer {display: flex; flex-direction: column; height: 43rem; width: 760px;}
+    .info_muni {margin-top: 1%; margin-left: 20%; text-align: center;}
+    .argentina {margin-left: 7%; width: 650px; height: 360px;}
+    .redes {display: flex; flex-direction: row; left: 30%; top: 86%;}
+}
+@media (max-width:574px){
+    body {width: 570px;}
+    .inicio {text-align: center;}
+    .banner {width: 570px;}
+    #carouselExampleSlidesOnly {width: 570px;}
+    .subt {width: 570px;}
+    .btn1 {width: 570px;}
+    .carta {width: 570px;}
+    #promocion1 {width: 570px; height: 200px;}
+    #promocion2 {width: 570px; height: 370px;}
+    .imagen {width: 520px; margin: 2%;}
+    .video {margin: 2%; margin-right: 5%; margin-left: 3%; width: 500px;}
+    .docu {width:520px; height:324px; margin: 1%; margin-left:1% ;}
+    footer {display: flex; flex-direction: column; height: 35rem; width: 574px;}
+    .info_muni {margin-top: 1%; margin-left: 10%; text-align: center;}
+    .argentina {margin-left: 7%; width: 480px; height: 260px;}
+    .redes {display: flex; flex-direction: row; left: 30%; top: 86%;}
+    }
+
+@media (max-width:360px) {
+    body {width: 360px;}
+    .inicio {text-align: center;}
+    .banner {width: 360px;}
+    #carouselExampleSlidesOnly {width: 330px;}
+    .subt {width: 360px;}
+    .btn1 {width: 360px;}
+    .carta {width: 360px; background-color: aliceblue;}
+    #promocion1 {width: 355px; height: 150px;}
+    #promocion2 {width: 355px; height: 250px;}
+    .imagen {width: 340px; margin: 2%;}
+    .video {margin: 2%; margin-right: 5%; margin-left: 3%; width: 360px;}
+    .docu {width:360px; height:214px; margin: 1%; margin-left:1% ;}
+    footer {display: flex; flex-direction: column; height: 35rem; width: 360px;}
+    .info_muni {margin-top: 1%; margin-left: 4%; text-align: center;}
+    .argentina {margin-left: 1%; width: 330px; height: 230px;}
+    .redes {display: flex; flex-direction: row; left: 30%; top: 86%;}
+    }
