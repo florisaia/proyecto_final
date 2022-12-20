@@ -173,7 +173,7 @@ footer {
     }
 
 @media (max-width:360px) {
-    header {background-image: url(../imagenes/fondo_header.jpg); width: 600px; height: 25rem; }
+    header {background-image: url(../imagenes/fondo_header.jpg); width: 600px; height: 35rem; }
     nav {flex-direction: column; justify-content: space-around; margin-left: 9%; text-align: left; width: 550px;}
     .imagenes_info {margin: 2%; margin-left: 2.5%; width: 550px;}
     .iconos_box {margin-left: 20%;}
@@ -187,5 +187,5 @@ footer {
     footer {display: flex; height: 35rem; width: 600px;}
     .info_muni {margin-top: 1%; margin-left: 30%;text-align: center;}
     .argentina {margin-left: 8%}
-    .redes {right: 10%;top: 86%;}
+    .redes {right: 5%;top: 86%;}
     }
