@@ -173,7 +173,7 @@ footer {
     }
 
 @media (max-width:360px) {
-    header {background-image: url(../imagenes/fondo_header.jpg); width: 600px; }
+    header {background-image: url(../imagenes/fondo_header.jpg); width: 600px; height: 25rem; }
     nav {flex-direction: column; justify-content: space-around; margin-left: 9%; text-align: left; width: 550px;}
     .imagenes_info {margin: 2%; margin-left: 2.5%; width: 550px;}
     .iconos_box {margin-left: 20%;}
